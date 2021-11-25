@@ -1,3 +1,5 @@
+#define NB_LIG 43
+#define NB_COL 63 /*oui oui ! graphiquement c'est l'inverse !*/
 /*==================CASE=============*/
 typedef enum {
 	WALL, 
@@ -15,4 +17,7 @@ typedef struct {
 		Treasure treasure;
 	}
 } Cell;
+typedef struct{
+	Cell Terrain[NB_LIG][NB_LIG]
+}Terrain;
 /*==================================*/
